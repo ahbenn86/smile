@@ -2,14 +2,21 @@ import React from 'react';
 import './Header.css';
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import {BrowserRouter as Router, useNavigate, NavLink, Link} from 'react-router-dom';
+
+
 
 function Header() {
     return (
         <div className='header'>
+            <Router>
+            <Link to={'/'}>
             <img 
             className="header__logo"
-            src="https://pngimg.com/uploads/mouth_smile/mouth_smile_PNG2.png" alt="smile logo"/>
-
+            src="https://pngimg.com/uploads/mouth_smile/mouth_smile_PNG2.png" 
+            alt="smile logo"/>
+            </Link>
+            </Router>
             <div className="header__search">
                 <input className="header__searchInput" type="text"/>
                 <SearchIcon className="header__searchIcon"/>
