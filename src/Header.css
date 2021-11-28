@@ -51,6 +51,14 @@
     color: white;
 }
 
+a {
+    color: #FFF;
+    text-decoration: solid;
+  }
+  a:hover {
+     color: rgb(212, 30, 30);
+  }
+
 .header__basketCount {
     margin-left: 10px;
     margin-right: 10px;
