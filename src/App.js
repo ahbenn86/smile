@@ -4,13 +4,14 @@ import Header from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
 import Login from './Login';
-import {Routes, Route} from "react-router-dom";
+import { Routes, Route, useLocation } from 'react-router-dom';
 
 
 function App() {
+  let location = useLocation();
   return (
     <div>
-      <Header/>
+      {location.pathname !== '/login' ? <Header /> : null}
       <main>
       <Routes>
        <Route path="/*" element={<Home/>}/>
