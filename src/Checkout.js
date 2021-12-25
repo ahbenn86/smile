@@ -8,14 +8,14 @@ import CheckoutProduct from './CheckoutProduct';
 
 
 function Checkout() {
-    const [{basket}, dispatch] = useStateValue();
+    const [{basket, user}, dispatch] = useStateValue();
 
     return (
         <div className="checkout">
             <div className="checkout__left">
               <img className="checkout__ad" src="https://i.imgur.com/0m5n5tt.png" alt=""/> 
-              {/* size is 1920x93 */}
               <div>
+              <h3>{user?.email}</h3> 
               <h2 className="checkout__title">
                     Your Smile Cart
                 </h2>
