@@ -15,7 +15,7 @@ function Checkout() {
             <div className="checkout__left">
               <img className="checkout__ad" src="https://i.imgur.com/0m5n5tt.png" alt=""/> 
               <div>
-              <h3>{user?.email}</h3> 
+              <h3>Hello, {user?.email}</h3> 
               <h2 className="checkout__title">
                     Your Smile Cart
                 </h2>
