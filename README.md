@@ -6,7 +6,7 @@ Firebase. Currently displays sign-in and cart checkout functionality. Original g
 myself using Adobe Photoshop.  
 <br/>
 
-![Smile Gif](https://i.imgur.com/p6dCjuz.gif)
+![Smile Gif](https://i.imgur.com/yd4iNsb.gif)
 
 > Currently under development 
 
