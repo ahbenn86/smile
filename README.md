@@ -7,7 +7,6 @@ myself using Adobe Photoshop.
 <br/>
 
 ![Smile Gif](https://i.imgur.com/4tQ7Kwa.gif)
-
 > Currently under development 
 
 <br/>
