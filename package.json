@@ -21,11 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-<<<<<<< HEAD
-=======
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
->>>>>>> 0ed6f91da741b804b20d6ec5667cc263e3d9c7f7
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -52,7 +49,6 @@
     "babel-install": "2.1.0",
     "babel-loader": "^8.2.3",
     "babel-preset-react-app": "^10.0.0",
-    "gh-pages": "^4.0.0",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1"
   }
